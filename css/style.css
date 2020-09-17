@@ -1,0 +1,316 @@
+/*google font heree*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+*{
+	margin:0;
+	padding: 0;
+}
+h1,h2{
+	font-family: 'Alfa Slab One', cursive;
+}
+p,span,input{
+	font-family: 'Montserrat'; 
+
+
+}
+h3,h4,h5,h6,{
+	font-family:'Bebas Neue', cursive; 
+}
+a,a:hover{
+	text-decoration: none;
+}
+/******************
+
+header part css here
+
+******************/
+header{
+	width:100%;
+	background:url(../img/banner-burger.png);
+	background-position:center; 
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.
+nav{
+	padding: 25px 0 !important;
+}
+
+
+
+.nav-item{
+	margin-left:20px; 
+}
+
+.nav-link{
+	font-size: 18px;
+	font-family:'Bebas Neue', cursive;
+	font-weight: 600; 
+	text-transform: uppercase;
+}
+
+/*******************
+
+banner part css here
+
+********************/
+.banner{
+	width:100%;
+	margin:150px 0; 
+
+}
+.banner .pre-title{
+	font-size: 15px;
+	border:1px dashed #3d2514;
+	display: inline-block;
+	padding:8px;
+
+}
+.banner .title{
+	font-size: 85px;
+	color: #3d2514;
+	text-shadow: 4px 4px #fee8bb;
+
+}
+.banner .sub-title{
+	font-size: 42px;
+	color: #3d2514;
+	text-shadow: 3px 3px #fee8bb;
+
+}
+/**************************
+	burger part css here
+
+***************************/
+
+.burger-blog{
+	width: 100%;
+	padding: 40px 0; 
+
+}
+.blog-info{
+	position: relative;
+}
+.blog-title{
+	position:absolute;
+	top: 26px;
+	left: 32px;
+	color: white;
+	text-transform: uppercase;
+
+}
+.blog-title h3{
+	font-size: 32px;
+	 
+}
+.upper-post, .lower-post{
+	position:relative;
+}
+.upper-post{
+	margin-bottom: 30px;
+}
+
+.upper-post .blog-title h3, .lower-post .blog-title h3{
+	font-size: 32px!important;
+	line-height: 32px!important;
+}
+.blog-button{
+	text-align: center;
+	margin:40px 0;
+	font-family: 'Bebas Neue',cursive;
+}
+
+
+.btn-primary{
+	background: #ffc045;
+	border: none;
+	border: 1px solid #ffc045;
+	border-radius: 0;
+	 padding: 10px 30px;
+	color:#3d2514;
+	text-transform: uppercase;
+}
+/**************************
+	order now part css here
+
+***************************/
+
+.order-now{
+	width: 100%;
+	text-align: center;
+
+}.order-now h1{
+	color:#3d2514;
+	margin-bottom:20px;
+}
+
+.row-top{
+	margin-bottom: 40px;
+}
+.order-now button{
+	font-family: 'Alfa Slab One', cursive;
+	background-color:red;
+	padding:10px 20px;
+	color:white;
+	border:none;
+	border-radius: 1px solid red; 
+}
+
+/**************************
+	event part css here
+
+***************************/
+.event{
+	width: 100%;
+	padding: 60px 0;
+}
+.event h1{
+	color:#3d2514;
+}
+.event-info{
+	padding: 60px 20px;
+}
+
+
+.event-body{
+	padding:30px;
+	transition:all 0.5s ease-in-out;
+ 
+}
+
+.event-body:hover{
+	box-shadow: 6px 5px 15px 0px rgba(0,0,0,0.6);
+	transition: all 0.5s ease-in-out;
+}
+.owl-theme .owl-nav{
+	display:none;
+}
+.owl-dots{
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+}
+
+/**************************
+	form part css here
+
+***************************/
+
+ .form-body{
+ 	width:100%;
+ 	padding:80px 30px;
+ 	
+
+ }
+
+.form-info{
+	position:relative;
+}
+
+.form-title{
+	position:absolute;
+	top:0;
+	left:300px;
+
+}
+.form-title h1{
+	padding:50px 0;
+}
+
+form input{
+	padding: 10px 40px;
+	border-spacing: 10px;
+
+	border-radius: 10px solid #898484;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family:'Bebas Neue',cursive;
+
+} 
+    
+ 
+.form-btn{
+	padding:10px 45px; 
+	background:red;
+	border:none;
+	color:white;
+	font-family: 'Alfa Slab One', cursive;
+	border-radius: 5px solid red;
+
+}
+
+/**************************
+	footer part css here
+
+***************************/
+.footer{
+	width:100%;
+	background:url(../img/food.bannar.png);
+	background-position:center; 
+	background-repeat:no-repeat;
+	background-size:contain;
+	height:80vh;
+}
+
+.footer-text p{
+	color:white;
+	font-size: 17px;
+	margin-top: 80px;
+}
+.footer-text img{
+	margin-top:100px;
+}
+
+.footer-ul02 ul li a i{
+	font-size: 18px;
+	height:30px;
+	width:30px;
+	background:white;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 30px;
+	margin:0 10px;
+	color:black;
+	}
+.footer-ul02 ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+       			
+
+.footer-ul02{
+	margin-top: 122px;
+	margin-left:300px;
+
+}
+.footer-ul01 ul li{
+	list-style: none;
+	display:inline-block;
+}
+.footer-ul01 ul a{
+	margin-left:20px;
+}
+
+.footer-ul01 i{
+	font-size: 30px;
+	color:white;
+	float:left;
+}
+
+.footer-ul01 li{
+	margin-top: 15px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Bebas Neue',cursive;
+}
+
+.footer-ul01{
+	margin-top: 280px;
+	margin-left: 170px;
+}
+
+
+
+
+	
